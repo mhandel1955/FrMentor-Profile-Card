@@ -1,5 +1,5 @@
 <template>
-  <app-bkgrnd><profile-card /></app-bkgrnd>
+  <app-bkgrnd><profile-card class="child-root" /></app-bkgrnd>
 </template>
 
 <script>
@@ -18,5 +18,12 @@ export default {
 <style>
 #app {
   margin: 0;
+}
+.child-root {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 </style>
