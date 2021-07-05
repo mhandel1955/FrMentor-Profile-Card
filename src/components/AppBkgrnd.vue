@@ -48,6 +48,7 @@
         opacity="1"
       />
     </svg>
+    <slot />
   </div>
 </template>
 
