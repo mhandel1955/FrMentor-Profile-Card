@@ -64,11 +64,13 @@ export default {
   background: rgb(27, 160, 173);
   height: 100vh;
   width: 100vw;
+  z-index: 1;
 }
 #circle01 {
   height: 100vh;
   width: 100vh;
   position: fixed;
+  z-index: 2;
   top: -45vh;
   left: -45vh;
 }
@@ -76,6 +78,7 @@ export default {
   height: 100vh;
   width: 100vh;
   position: fixed;
+  z-index: 2;
   bottom: -45vh;
   right: -45vh;
 }
